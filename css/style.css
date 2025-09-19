@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+.siteheader {
+  max-width: 870px;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-bottom: 0px;
+}
+
+.emoji {
+  border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.emoji h2 {
+  margin: 0;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: .5rem;
+
+}
+
+.emoji a {
+    text-decoration: none;
+    background-color: #781BAA;
+    color: #fff;
+    text-align: left;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: auto;
+    display: block;
+    
+}
+   
+.icon {
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+  margin-bottom: .5rem;
+  order: -1;
+}
+
+.emojis {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+@media (max-width: 640px) {
+    .emojis {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
